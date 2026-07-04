@@ -6,7 +6,7 @@ This repository is not a single experiment. It is a collection of applied notebo
 
 ![Portfolio visual summary](assets/readme/ml-lab-cartoon.svg)
 
-![Portfolio overview](assets/readme/portfolio-overview.svg)
+![Project method map](assets/readme/portfolio-overview.svg)
 
 ## What This Repository Demonstrates
 
@@ -39,10 +39,6 @@ This repository is not a single experiment. It is a collection of applied notebo
 
 ![Model map](assets/readme/model-map.svg)
 
-![Notebook depth](assets/readme/project-coverage.svg)
-
-![Scale and depth](assets/readme/scale-depth-scatter.svg)
-
 ![Dataset scale](assets/readme/dataset-scale.svg)
 
 ## Reported Results
@@ -62,8 +58,6 @@ The chart below summarizes metrics visible in notebook outputs. These are projec
 | LendingClub Neural Network | Accuracy: 0.87 on a large validation/test split |
 
 ## Project Details
-
-![Feature engineering depth](assets/readme/feature-engineering-depth.svg)
 
 ### Linear Regression
 
