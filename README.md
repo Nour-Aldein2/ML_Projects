@@ -4,7 +4,7 @@ A machine learning portfolio that demonstrates practical modeling skill across r
 
 This repository is not a single experiment. It is a collection of applied notebooks that show the full ML workflow: data inspection, exploratory analysis, preprocessing, feature engineering, model training, hyperparameter tuning, evaluation, and visual communication.
 
-![Applied ML lab cartoon](assets/readme/ml-lab-cartoon.svg)
+![Portfolio visual summary](assets/readme/ml-lab-cartoon.svg)
 
 ![Portfolio overview](assets/readme/portfolio-overview.svg)
 

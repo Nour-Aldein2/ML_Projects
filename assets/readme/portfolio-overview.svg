@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="405" viewBox="0 0 960 405" role="img">
 <style>
 .title{font:700 26px Arial,Helvetica,sans-serif;fill:#20262e}
 .subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#66717d}
@@ -6,38 +6,55 @@
 .text{font:400 12px Arial,Helvetica,sans-serif;fill:#20262e}
 .small{font:400 11px Arial,Helvetica,sans-serif;fill:#66717d}
 .tiny{font:400 10px Arial,Helvetica,sans-serif;fill:#66717d}
-.num{font:700 32px Arial,Helvetica,sans-serif;fill:#20262e}
+.num{font:700 30px Arial,Helvetica,sans-serif;fill:#20262e}
 .axis{font:400 10px Arial,Helvetica,sans-serif;fill:#66717d}
 .grid{stroke:#ded9cc;stroke-width:1;shape-rendering:crispEdges}
 .baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
+.arrow{fill:none;stroke:#66717d;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.node{fill:white;stroke:#ded9cc;stroke-width:1.2}
 </style>
-<text class="title" x="42" y="46">Machine Learning Portfolio</text>
-<text class="subtitle" x="42" y="68">Breadth across classical ML, feature engineering, Kaggle workflows, and neural networks.</text>
-<text class="num" x="52" y="142">8</text>
-<text class="small" x="52" y="164">main projects</text>
-<text class="num" x="274" y="142">10</text>
-<text class="small" x="274" y="164">notebooks</text>
-<text class="num" x="496" y="142">8</text>
-<text class="small" x="496" y="164">data files</text>
-<text class="num" x="718" y="142">409,445</text>
-<text class="small" x="718" y="164">local rows</text>
-<line class="baseline" x1="70" y1="235" x2="890" y2="235"/>
-<text class="label" x="42" y="216">Model-family composition</text>
-<line x1="70.0" y1="235" x2="582.5" y2="235" stroke="#B45F3C" stroke-width="16"/>
-<line x1="70.0" y1="221" x2="70.0" y2="249" stroke="#ffffff" stroke-width="1"/>
-<text class="small" x="326.2" y="277" text-anchor="middle">Classification</text>
-<text class="tiny" x="326.2" y="293" text-anchor="middle">5 of 8</text>
-<line x1="582.5" y1="235" x2="685.0" y2="235" stroke="#2E6F8E" stroke-width="16"/>
-<line x1="582.5" y1="221" x2="582.5" y2="249" stroke="#ffffff" stroke-width="1"/>
-<text class="small" x="633.8" y="277" text-anchor="middle">Regression</text>
-<text class="tiny" x="633.8" y="293" text-anchor="middle">1 of 8</text>
-<line x1="685.0" y1="235" x2="787.5" y2="235" stroke="#3F7D5A" stroke-width="16"/>
-<line x1="685.0" y1="221" x2="685.0" y2="249" stroke="#ffffff" stroke-width="1"/>
-<text class="small" x="736.2" y="277" text-anchor="middle">Clustering</text>
-<text class="tiny" x="736.2" y="293" text-anchor="middle">1 of 8</text>
-<line x1="787.5" y1="235" x2="890.0" y2="235" stroke="#6B5CA5" stroke-width="16"/>
-<line x1="787.5" y1="221" x2="787.5" y2="249" stroke="#ffffff" stroke-width="1"/>
-<text class="small" x="838.8" y="277" text-anchor="middle">Neural Network</text>
-<text class="tiny" x="838.8" y="293" text-anchor="middle">1 of 8</text>
-<line x1="890" y1="221" x2="890" y2="249" stroke="#ffffff" stroke-width="1"/>
+<text class="title" x="42" y="46">Repository at a Glance</text>
+<text class="subtitle" x="42" y="68">A compact evidence summary for scope, depth, and project types.</text>
+<text class="num" x="110" y="135" text-anchor="middle">8</text>
+<text class="small" x="110" y="155" text-anchor="middle">main projects</text>
+<line x1="62" y1="169" x2="158" y2="169" stroke="#B45F3C" stroke-width="3"/>
+<text class="num" x="290" y="135" text-anchor="middle">10</text>
+<text class="small" x="290" y="155" text-anchor="middle">notebooks</text>
+<line x1="242" y1="169" x2="338" y2="169" stroke="#2E6F8E" stroke-width="3"/>
+<text class="num" x="470" y="135" text-anchor="middle">8</text>
+<text class="small" x="470" y="155" text-anchor="middle">data files</text>
+<line x1="422" y1="169" x2="518" y2="169" stroke="#3F7D5A" stroke-width="3"/>
+<text class="num" x="690" y="135" text-anchor="middle">409,445</text>
+<text class="small" x="690" y="155" text-anchor="middle">local CSV records</text>
+<line x1="642" y1="169" x2="738" y2="169" stroke="#6B5CA5" stroke-width="3"/>
+<text class="label" x="42" y="230">Method breadth</text>
+<circle cx="92" cy="264" r="9" fill="#2E6F8E"/>
+<text class="tiny" x="92" y="288" text-anchor="middle">Linear</text>
+<circle cx="194" cy="264" r="9" fill="#B45F3C"/>
+<text class="tiny" x="194" y="288" text-anchor="middle">Logistic</text>
+<circle cx="296" cy="264" r="9" fill="#B45F3C"/>
+<text class="tiny" x="296" y="288" text-anchor="middle">KNN</text>
+<circle cx="398" cy="264" r="9" fill="#B45F3C"/>
+<text class="tiny" x="398" y="288" text-anchor="middle">SVM</text>
+<circle cx="500" cy="264" r="9" fill="#B45F3C"/>
+<text class="tiny" x="500" y="288" text-anchor="middle">Trees/RF</text>
+<circle cx="602" cy="264" r="9" fill="#3F7D5A"/>
+<text class="tiny" x="602" y="288" text-anchor="middle">K-Means</text>
+<circle cx="704" cy="264" r="9" fill="#C49A3A"/>
+<text class="tiny" x="704" y="288" text-anchor="middle">Kaggle FE</text>
+<circle cx="806" cy="264" r="9" fill="#6B5CA5"/>
+<text class="tiny" x="806" y="288" text-anchor="middle">Keras NN</text>
+<text class="label" x="42" y="335">Depth signals</text>
+<circle cx="154" cy="360" r="6" fill="#B45F3C"/>
+<text class="text" x="168" y="365">120 code cells</text>
+<text class="tiny" x="168" y="381">Titanic Kaggle</text>
+<circle cx="384" cy="360" r="6" fill="#6B5CA5"/>
+<text class="text" x="398" y="365">138 code cells</text>
+<text class="tiny" x="398" y="381">LendingClub NN</text>
+<circle cx="624" cy="360" r="6" fill="#6B5CA5"/>
+<text class="text" x="638" y="365">19 helper funcs</text>
+<text class="tiny" x="638" y="381">LendingClub FE</text>
+<circle cx="826" cy="360" r="6" fill="#C49A3A"/>
+<text class="text" x="840" y="365">13 helper funcs</text>
+<text class="tiny" x="840" y="381">Titanic FE</text>
 </svg>
