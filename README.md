@@ -57,4 +57,4 @@ ML_Projects/
 
 ## Notes
 
-The README figures were generated from the files in this repository. Their style follows the data-visualization guidance in [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) and the [Scientific Visualization book](https://github.com/rougier/scientific-visualization-book): direct labeling, restrained colors, proportional encodings, readable scales, and minimal decoration.
+The README figures were generated from the files in this repository. Their style follows examples and principles from [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) and the [Scientific Visualization book](https://github.com/rougier/scientific-visualization-book): Cleveland dot plots for amounts, proportional bars for composition, log-scale lollipop plots for scale, direct labeling, restrained color, and minimal decoration.
