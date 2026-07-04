@@ -13,6 +13,7 @@
 .sketch{fill:none;stroke:#20262e;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .soft{fill:#f7f3ea;stroke:#ded9cc;stroke-width:1.2}
 </style>
+<rect class="figure-bg" x="0" y="0" width="960" height="405" fill="#ffffff" stroke="#d9dee7" stroke-width="1"/>
 <text class="title" x="42" y="42">Project Sketchbook</text>
 <text class="subtitle" x="42" y="64">Eight projects, each represented by a small visual metaphor plus its modeling family.</text>
 <text class="label" x="46" y="213">Linear</text>

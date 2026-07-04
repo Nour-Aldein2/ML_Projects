@@ -13,6 +13,7 @@
 .arrow{fill:none;stroke:#66717d;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .node{fill:white;stroke:#ded9cc;stroke-width:1.2}
 </style>
+<rect class="figure-bg" x="0" y="0" width="960" height="405" fill="#ffffff" stroke="#d9dee7" stroke-width="1"/>
 <text class="title" x="42" y="46">Repository at a Glance</text>
 <text class="subtitle" x="42" y="68">A compact evidence summary for scope, depth, and project types.</text>
 <text class="num" x="110" y="135" text-anchor="middle">8</text>
