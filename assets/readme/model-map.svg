@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img">
+<style>
+.bg{fill:#fbfbf8}.panel{fill:#fff;stroke:#d9d6cc;stroke-width:1}.title{font:700 25px Arial,Helvetica,sans-serif;fill:#1f2933}.subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#65717d}.label{font:700 12px Arial,Helvetica,sans-serif;fill:#26323f}.small{font:400 11px Arial,Helvetica,sans-serif;fill:#65717d}.tiny{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.num{font:700 27px Arial,Helvetica,sans-serif;fill:#1f2933}.axis{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.grid{stroke:#e8e4d9;stroke-width:1}.blue{fill:#356d9a}.orange{fill:#d9822b}.green{fill:#2f855a}.purple{fill:#756bb1}.red{fill:#c94c4c}.gray{fill:#8a94a3}
+</style>
+<rect class="bg" width="960" height="360" rx="22"/>
+<text class="title" x="34" y="44">Model Map</text>
+<text class="subtitle" x="34" y="66">Projects grouped by the type of learning problem they demonstrate.</text>
+<rect class="panel" x="34" y="100" width="198" height="208" rx="12"/>
+<circle cx="58" cy="130" r="8" fill="#356d9a"/>
+<text class="label" x="76" y="135">Regression</text>
+<text class="small" x="56" y="166">Linear Regression</text>
+<text class="tiny" x="56" y="182">Ecommerce spending</text>
+<rect class="panel" x="260" y="100" width="198" height="208" rx="12"/>
+<circle cx="284" cy="130" r="8" fill="#d9822b"/>
+<text class="label" x="302" y="135">Classification</text>
+<text class="small" x="282" y="166">Logistic Regression</text>
+<text class="tiny" x="282" y="182">Ad click prediction</text>
+<text class="small" x="282" y="209">KNN</text>
+<text class="tiny" x="282" y="225">K-nearest neighbors</text>
+<text class="small" x="282" y="252">SVM</text>
+<text class="tiny" x="282" y="268">Iris species</text>
+<text class="small" x="282" y="295">Decision Trees &amp; RF</text>
+<text class="tiny" x="282" y="311">Loan outcomes</text>
+<text class="small" x="282" y="338">Titanic Kaggle</text>
+<text class="tiny" x="282" y="354">Passenger survival</text>
+<rect class="panel" x="486" y="100" width="198" height="208" rx="12"/>
+<circle cx="510" cy="130" r="8" fill="#2f855a"/>
+<text class="label" x="528" y="135">Clustering</text>
+<text class="small" x="508" y="166">K-Means</text>
+<text class="tiny" x="508" y="182">Clustering from scratch</text>
+<rect class="panel" x="712" y="100" width="198" height="208" rx="12"/>
+<circle cx="736" cy="130" r="8" fill="#756bb1"/>
+<text class="label" x="754" y="135">Neural Network</text>
+<text class="small" x="734" y="166">LendingClub NN</text>
+<text class="tiny" x="734" y="182">Loan repayment</text>
+</svg>

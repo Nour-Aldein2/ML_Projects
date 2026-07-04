@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img">
+<style>
+.bg{fill:#fbfbf8}.panel{fill:#fff;stroke:#d9d6cc;stroke-width:1}.title{font:700 25px Arial,Helvetica,sans-serif;fill:#1f2933}.subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#65717d}.label{font:700 12px Arial,Helvetica,sans-serif;fill:#26323f}.small{font:400 11px Arial,Helvetica,sans-serif;fill:#65717d}.tiny{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.num{font:700 27px Arial,Helvetica,sans-serif;fill:#1f2933}.axis{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.grid{stroke:#e8e4d9;stroke-width:1}.blue{fill:#356d9a}.orange{fill:#d9822b}.green{fill:#2f855a}.purple{fill:#756bb1}.red{fill:#c94c4c}.gray{fill:#8a94a3}
+</style>
+<rect class="bg" width="960" height="360" rx="22"/>
+<text class="title" x="34" y="44">Machine Learning Portfolio</text>
+<text class="subtitle" x="34" y="66">A compact survey of classical ML, clustering, Kaggle modeling, and neural networks.</text>
+<rect class="panel" x="34" y="96" width="198" height="104" rx="12"/>
+<circle cx="62" cy="126" r="8" fill="#356d9a"/>
+<text class="small" x="78" y="131">Projects</text>
+<text class="num" x="58" y="174">8</text>
+<rect class="panel" x="260" y="96" width="198" height="104" rx="12"/>
+<circle cx="288" cy="126" r="8" fill="#d9822b"/>
+<text class="small" x="304" y="131">Notebooks</text>
+<text class="num" x="284" y="174">10</text>
+<rect class="panel" x="486" y="96" width="198" height="104" rx="12"/>
+<circle cx="514" cy="126" r="8" fill="#2f855a"/>
+<text class="small" x="530" y="131">Data files</text>
+<text class="num" x="510" y="174">8</text>
+<rect class="panel" x="712" y="96" width="198" height="104" rx="12"/>
+<circle cx="740" cy="126" r="8" fill="#756bb1"/>
+<text class="small" x="756" y="131">Rows inspected</text>
+<text class="num" x="736" y="174">805,975</text>
+<text class="label" x="34" y="250">Model families</text>
+<rect x="76" y="258" width="808" height="28" rx="14" fill="#ece8dc"/>
+<rect x="76.0" y="258" width="505.0" height="28" rx="14" fill="#d9822b"/>
+<text class="tiny" x="328.5" y="305" text-anchor="middle">Classification: 5</text>
+<rect x="581.0" y="258" width="101.0" height="28" rx="14" fill="#356d9a"/>
+<text class="tiny" x="631.5" y="305" text-anchor="middle">Regression: 1</text>
+<rect x="682.0" y="258" width="101.0" height="28" rx="14" fill="#2f855a"/>
+<text class="tiny" x="732.5" y="305" text-anchor="middle">Clustering: 1</text>
+<rect x="783.0" y="258" width="101.0" height="28" rx="14" fill="#756bb1"/>
+<text class="tiny" x="833.5" y="305" text-anchor="middle">Neural Network: 1</text>
+</svg>

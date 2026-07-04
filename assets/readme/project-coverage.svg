@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img">
+<style>
+.bg{fill:#fbfbf8}.panel{fill:#fff;stroke:#d9d6cc;stroke-width:1}.title{font:700 25px Arial,Helvetica,sans-serif;fill:#1f2933}.subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#65717d}.label{font:700 12px Arial,Helvetica,sans-serif;fill:#26323f}.small{font:400 11px Arial,Helvetica,sans-serif;fill:#65717d}.tiny{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.num{font:700 27px Arial,Helvetica,sans-serif;fill:#1f2933}.axis{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.grid{stroke:#e8e4d9;stroke-width:1}.blue{fill:#356d9a}.orange{fill:#d9822b}.green{fill:#2f855a}.purple{fill:#756bb1}.red{fill:#c94c4c}.gray{fill:#8a94a3}
+</style>
+<rect class="bg" width="960" height="470" rx="22"/>
+<text class="title" x="34" y="44">Project Coverage</text>
+<text class="subtitle" x="34" y="66">Notebook scope measured by executable code cells; color encodes model family.</text>
+<line class="grid" x1="290.0" y1="96" x2="290.0" y2="382"/>
+<text class="axis" x="290.0" y="404" text-anchor="middle">0</text>
+<line class="grid" x1="492.9" y1="96" x2="492.9" y2="382"/>
+<text class="axis" x="492.9" y="404" text-anchor="middle">50</text>
+<line class="grid" x1="695.8" y1="96" x2="695.8" y2="382"/>
+<text class="axis" x="695.8" y="404" text-anchor="middle">100</text>
+<line class="grid" x1="898.7" y1="96" x2="898.7" y2="382"/>
+<text class="axis" x="898.7" y="404" text-anchor="middle">150</text>
+<text class="label" x="34" y="114">LendingClub NN</text>
+<text class="small" x="190" y="114">Neural Network</text>
+<rect x="290" y="98" width="560.0" height="20" rx="3" fill="#756bb1"/>
+<text class="small" x="860.0" y="113">138</text>
+<text class="label" x="34" y="149">Titanic Kaggle</text>
+<text class="small" x="190" y="149">Classification</text>
+<rect x="290" y="133" width="487.0" height="20" rx="3" fill="#d9822b"/>
+<text class="small" x="787.0" y="148">120</text>
+<text class="label" x="34" y="184">SVM</text>
+<text class="small" x="190" y="184">Classification</text>
+<rect x="290" y="168" width="109.6" height="20" rx="3" fill="#d9822b"/>
+<text class="small" x="409.6" y="183">27</text>
+<text class="label" x="34" y="219">Decision Trees &amp; RF</text>
+<text class="small" x="190" y="219">Classification</text>
+<rect x="290" y="203" width="97.4" height="20" rx="3" fill="#d9822b"/>
+<text class="small" x="397.4" y="218">24</text>
+<text class="label" x="34" y="254">Linear Regression</text>
+<text class="small" x="190" y="254">Regression</text>
+<rect x="290" y="238" width="93.3" height="20" rx="3" fill="#356d9a"/>
+<text class="small" x="393.3" y="253">23</text>
+<text class="label" x="34" y="289">KNN</text>
+<text class="small" x="190" y="289">Classification</text>
+<rect x="290" y="273" width="81.2" height="20" rx="3" fill="#d9822b"/>
+<text class="small" x="381.2" y="288">20</text>
+<text class="label" x="34" y="324">K-Means</text>
+<text class="small" x="190" y="324">Clustering</text>
+<rect x="290" y="308" width="69.0" height="20" rx="3" fill="#2f855a"/>
+<text class="small" x="369.0" y="323">17</text>
+<text class="label" x="34" y="359">Logistic Regression</text>
+<text class="small" x="190" y="359">Classification</text>
+<rect x="290" y="343" width="60.9" height="20" rx="3" fill="#d9822b"/>
+<text class="small" x="360.9" y="358">15</text>
+<text class="axis" x="570" y="438" text-anchor="middle">Code cells in notebook</text>
+</svg>

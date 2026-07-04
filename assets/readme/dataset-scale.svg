@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img">
+<style>
+.bg{fill:#fbfbf8}.panel{fill:#fff;stroke:#d9d6cc;stroke-width:1}.title{font:700 25px Arial,Helvetica,sans-serif;fill:#1f2933}.subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#65717d}.label{font:700 12px Arial,Helvetica,sans-serif;fill:#26323f}.small{font:400 11px Arial,Helvetica,sans-serif;fill:#65717d}.tiny{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.num{font:700 27px Arial,Helvetica,sans-serif;fill:#1f2933}.axis{font:400 10px Arial,Helvetica,sans-serif;fill:#7d8790}.grid{stroke:#e8e4d9;stroke-width:1}.blue{fill:#356d9a}.orange{fill:#d9822b}.green{fill:#2f855a}.purple{fill:#756bb1}.red{fill:#c94c4c}.gray{fill:#8a94a3}
+</style>
+<rect class="bg" width="960" height="430" rx="22"/>
+<text class="title" x="34" y="44">Dataset Scale</text>
+<text class="subtitle" x="34" y="66">Row counts span several orders of magnitude, so positions use a labeled log10 scale.</text>
+<line class="grid" x1="300.0" y1="96" x2="300.0" y2="320"/>
+<text class="axis" x="300.0" y="344" text-anchor="middle">10^2</text>
+<line class="grid" x1="435.0" y1="96" x2="435.0" y2="320"/>
+<text class="axis" x="435.0" y="344" text-anchor="middle">10^3</text>
+<line class="grid" x1="570.0" y1="96" x2="570.0" y2="320"/>
+<text class="axis" x="570.0" y="344" text-anchor="middle">10^4</text>
+<line class="grid" x1="705.0" y1="96" x2="705.0" y2="320"/>
+<text class="axis" x="705.0" y="344" text-anchor="middle">10^5</text>
+<line class="grid" x1="840.0" y1="96" x2="840.0" y2="320"/>
+<text class="axis" x="840.0" y="344" text-anchor="middle">10^6</text>
+<text class="label" x="34" y="107">LendingClub NN</text>
+<line x1="300" y1="102" x2="826.3" y2="102" stroke="#756bb1" stroke-width="4" stroke-linecap="round"/>
+<circle cx="826.3" cy="102" r="7" fill="#756bb1"/>
+<text class="small" x="839.3" y="106">792,060 rows</text>
+<text class="label" x="34" y="142">Decision Trees &amp; RF</text>
+<line x1="300" y1="137" x2="567.5" y2="137" stroke="#d9822b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="567.5" cy="137" r="7" fill="#d9822b"/>
+<text class="small" x="580.5" y="141">9,578 rows</text>
+<text class="label" x="34" y="177">Linear Regression</text>
+<line x1="300" y1="172" x2="435.0" y2="172" stroke="#356d9a" stroke-width="4" stroke-linecap="round"/>
+<circle cx="435.0" cy="172" r="7" fill="#356d9a"/>
+<text class="small" x="448.0" y="176">1,000 rows</text>
+<text class="label" x="34" y="212">Logistic Regression</text>
+<line x1="300" y1="207" x2="435.0" y2="207" stroke="#d9822b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="435.0" cy="207" r="7" fill="#d9822b"/>
+<text class="small" x="448.0" y="211">1,000 rows</text>
+<text class="label" x="34" y="247">KNN</text>
+<line x1="300" y1="242" x2="435.0" y2="242" stroke="#d9822b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="435.0" cy="242" r="7" fill="#d9822b"/>
+<text class="small" x="448.0" y="246">1,000 rows</text>
+<text class="label" x="34" y="282">Titanic Kaggle</text>
+<line x1="300" y1="277" x2="428.2" y2="277" stroke="#d9822b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="428.2" cy="277" r="7" fill="#d9822b"/>
+<text class="small" x="441.2" y="281">891 rows</text>
+<text class="axis" x="570" y="390" text-anchor="middle">Rows per primary dataset (log10 scale)</text>
+</svg>
