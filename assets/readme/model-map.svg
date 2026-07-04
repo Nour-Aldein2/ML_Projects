@@ -12,7 +12,7 @@
 .baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
 </style>
 <text class="title" x="42" y="42">Model Map</text>
-<text class="subtitle" x="42" y="64">A small-multiple map of projects by learning family and problem type.</text>
+<text class="subtitle" x="42" y="64">Projects grouped by learning family and problem type.</text>
 <text class="label" x="300" y="105">Classification</text>
 <line x1="300" y1="116" x2="430" y2="116" stroke="#B45F3C" stroke-width="2"/>
 <text class="label" x="95" y="105">Regression</text>

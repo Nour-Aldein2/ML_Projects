@@ -12,15 +12,15 @@
 .baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
 </style>
 <text class="title" x="42" y="46">Machine Learning Portfolio</text>
-<text class="subtitle" x="42" y="68">Project count, notebook count, local data files, and model-family composition.</text>
+<text class="subtitle" x="42" y="68">Breadth across classical ML, feature engineering, Kaggle workflows, and neural networks.</text>
 <text class="num" x="52" y="142">8</text>
-<text class="small" x="52" y="164">projects</text>
+<text class="small" x="52" y="164">main projects</text>
 <text class="num" x="274" y="142">10</text>
 <text class="small" x="274" y="164">notebooks</text>
 <text class="num" x="496" y="142">8</text>
 <text class="small" x="496" y="164">data files</text>
-<text class="num" x="718" y="142">805,975</text>
-<text class="small" x="718" y="164">rows</text>
+<text class="num" x="718" y="142">409,445</text>
+<text class="small" x="718" y="164">local rows</text>
 <line class="baseline" x1="70" y1="235" x2="890" y2="235"/>
 <text class="label" x="42" y="216">Model-family composition</text>
 <line x1="70.0" y1="235" x2="582.5" y2="235" stroke="#B45F3C" stroke-width="16"/>

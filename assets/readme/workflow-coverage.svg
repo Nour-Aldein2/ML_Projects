@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 0 960 390" role="img">
+<style>
+.title{font:700 26px Arial,Helvetica,sans-serif;fill:#20262e}
+.subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#66717d}
+.label{font:700 12px Arial,Helvetica,sans-serif;fill:#20262e}
+.text{font:400 12px Arial,Helvetica,sans-serif;fill:#20262e}
+.small{font:400 11px Arial,Helvetica,sans-serif;fill:#66717d}
+.tiny{font:400 10px Arial,Helvetica,sans-serif;fill:#66717d}
+.num{font:700 32px Arial,Helvetica,sans-serif;fill:#20262e}
+.axis{font:400 10px Arial,Helvetica,sans-serif;fill:#66717d}
+.grid{stroke:#ded9cc;stroke-width:1;shape-rendering:crispEdges}
+.baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
+</style>
+<text class="title" x="42" y="42">Workflow Coverage</text>
+<text class="subtitle" x="42" y="64">A dot matrix of recurring ML workflow skills demonstrated across the portfolio.</text>
+<text class="axis" x="250" y="88" text-anchor="middle">EDA</text>
+<line class="grid" x1="250" y1="96" x2="250" y2="350"/>
+<text class="axis" x="335" y="88" text-anchor="middle">Preprocess</text>
+<line class="grid" x1="335" y1="96" x2="335" y2="350"/>
+<text class="axis" x="420" y="88" text-anchor="middle">Feature eng.</text>
+<line class="grid" x1="420" y1="96" x2="420" y2="350"/>
+<text class="axis" x="505" y="88" text-anchor="middle">Modeling</text>
+<line class="grid" x1="505" y1="96" x2="505" y2="350"/>
+<text class="axis" x="590" y="88" text-anchor="middle">Tuning</text>
+<line class="grid" x1="590" y1="96" x2="590" y2="350"/>
+<text class="axis" x="675" y="88" text-anchor="middle">Evaluation</text>
+<line class="grid" x1="675" y1="96" x2="675" y2="350"/>
+<text class="axis" x="760" y="88" text-anchor="middle">Visualization</text>
+<line class="grid" x1="760" y1="96" x2="760" y2="350"/>
+<text class="text" x="42" y="108">Linear Regression</text>
+<line x1="226" y1="104" x2="784" y2="104" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="104" r="6" fill="#2E6F8E"/>
+<circle cx="335" cy="104" r="6" fill="#2E6F8E"/>
+<circle cx="420" cy="104" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="505" cy="104" r="6" fill="#2E6F8E"/>
+<circle cx="590" cy="104" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="675" cy="104" r="6" fill="#2E6F8E"/>
+<circle cx="760" cy="104" r="6" fill="#2E6F8E"/>
+<text class="text" x="42" y="142">Logistic Regression</text>
+<line x1="226" y1="138" x2="784" y2="138" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="138" r="6" fill="#B45F3C"/>
+<circle cx="335" cy="138" r="6" fill="#B45F3C"/>
+<circle cx="420" cy="138" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="505" cy="138" r="6" fill="#B45F3C"/>
+<circle cx="590" cy="138" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="675" cy="138" r="6" fill="#B45F3C"/>
+<circle cx="760" cy="138" r="6" fill="#B45F3C"/>
+<text class="text" x="42" y="176">KNN</text>
+<line x1="226" y1="172" x2="784" y2="172" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="172" r="6" fill="#B45F3C"/>
+<circle cx="335" cy="172" r="6" fill="#B45F3C"/>
+<circle cx="420" cy="172" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="505" cy="172" r="6" fill="#B45F3C"/>
+<circle cx="590" cy="172" r="6" fill="#B45F3C"/>
+<circle cx="675" cy="172" r="6" fill="#B45F3C"/>
+<circle cx="760" cy="172" r="6" fill="#B45F3C"/>
+<text class="text" x="42" y="210">SVM</text>
+<line x1="226" y1="206" x2="784" y2="206" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="206" r="6" fill="#B45F3C"/>
+<circle cx="335" cy="206" r="6" fill="#B45F3C"/>
+<circle cx="420" cy="206" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="505" cy="206" r="6" fill="#B45F3C"/>
+<circle cx="590" cy="206" r="6" fill="#B45F3C"/>
+<circle cx="675" cy="206" r="6" fill="#B45F3C"/>
+<circle cx="760" cy="206" r="6" fill="#B45F3C"/>
+<text class="text" x="42" y="244">Decision Trees &amp; RF</text>
+<line x1="226" y1="240" x2="784" y2="240" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="240" r="6" fill="#B45F3C"/>
+<circle cx="335" cy="240" r="6" fill="#B45F3C"/>
+<circle cx="420" cy="240" r="6" fill="#B45F3C"/>
+<circle cx="505" cy="240" r="6" fill="#B45F3C"/>
+<circle cx="590" cy="240" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="675" cy="240" r="6" fill="#B45F3C"/>
+<circle cx="760" cy="240" r="6" fill="#B45F3C"/>
+<text class="text" x="42" y="278">K-Means</text>
+<line x1="226" y1="274" x2="784" y2="274" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="274" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="335" cy="274" r="6" fill="#3F7D5A"/>
+<circle cx="420" cy="274" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="505" cy="274" r="6" fill="#3F7D5A"/>
+<circle cx="590" cy="274" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="675" cy="274" r="3" fill="white" stroke="#ded9cc" stroke-width="1"/>
+<circle cx="760" cy="274" r="6" fill="#3F7D5A"/>
+<text class="text" x="42" y="312">Titanic Kaggle</text>
+<line x1="226" y1="308" x2="784" y2="308" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="308" r="6" fill="#B45F3C"/>
+<circle cx="335" cy="308" r="6" fill="#B45F3C"/>
+<circle cx="420" cy="308" r="6" fill="#B45F3C"/>
+<circle cx="505" cy="308" r="6" fill="#B45F3C"/>
+<circle cx="590" cy="308" r="6" fill="#B45F3C"/>
+<circle cx="675" cy="308" r="6" fill="#B45F3C"/>
+<circle cx="760" cy="308" r="6" fill="#B45F3C"/>
+<text class="text" x="42" y="346">LendingClub NN</text>
+<line x1="226" y1="342" x2="784" y2="342" stroke="#f7f3ea" stroke-width="1"/>
+<circle cx="250" cy="342" r="6" fill="#6B5CA5"/>
+<circle cx="335" cy="342" r="6" fill="#6B5CA5"/>
+<circle cx="420" cy="342" r="6" fill="#6B5CA5"/>
+<circle cx="505" cy="342" r="6" fill="#6B5CA5"/>
+<circle cx="590" cy="342" r="6" fill="#6B5CA5"/>
+<circle cx="675" cy="342" r="6" fill="#6B5CA5"/>
+<circle cx="760" cy="342" r="6" fill="#6B5CA5"/>
+</svg>

@@ -12,7 +12,7 @@
 .baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
 </style>
 <text class="title" x="42" y="42">Dataset Scale</text>
-<text class="subtitle" x="42" y="64">A log-scale lollipop plot, used because the LendingClub data is much larger than the course datasets.</text>
+<text class="subtitle" x="42" y="64">Primary local dataset size by project. The axis is logarithmic because scale varies widely.</text>
 <line class="grid" x1="270.0" y1="84" x2="270.0" y2="330"/>
 <text class="axis" x="270.0" y="356" text-anchor="middle">10^2</text>
 <line class="grid" x1="415.0" y1="84" x2="415.0" y2="330"/>
@@ -24,14 +24,14 @@
 <line class="grid" x1="850.0" y1="84" x2="850.0" y2="330"/>
 <text class="axis" x="850.0" y="356" text-anchor="middle">10^6</text>
 <line class="baseline" x1="270" y1="330" x2="850" y2="330"/>
-<text class="text" x="42" y="98">Titanic Kaggle</text>
-<line x1="270" y1="94" x2="407.7" y2="94" stroke="#B45F3C" stroke-width="2.4"/>
-<circle cx="407.7" cy="94" r="6.5" fill="white" stroke="#B45F3C" stroke-width="2.4"/>
-<text class="small" x="419.7" y="98">891</text>
-<text class="text" x="42" y="136">Linear Regression</text>
-<line x1="270" y1="132" x2="415.0" y2="132" stroke="#2E6F8E" stroke-width="2.4"/>
-<circle cx="415.0" cy="132" r="6.5" fill="white" stroke="#2E6F8E" stroke-width="2.4"/>
-<text class="small" x="427.0" y="136">1,000</text>
+<text class="text" x="42" y="98">Linear Regression</text>
+<line x1="270" y1="94" x2="371.4" y2="94" stroke="#2E6F8E" stroke-width="2.4"/>
+<circle cx="371.4" cy="94" r="6.5" fill="white" stroke="#2E6F8E" stroke-width="2.4"/>
+<text class="small" x="383.4" y="98">500</text>
+<text class="text" x="42" y="136">Titanic Kaggle</text>
+<line x1="270" y1="132" x2="407.7" y2="132" stroke="#B45F3C" stroke-width="2.4"/>
+<circle cx="407.7" cy="132" r="6.5" fill="white" stroke="#B45F3C" stroke-width="2.4"/>
+<text class="small" x="419.7" y="136">891</text>
 <text class="text" x="42" y="174">Logistic Regression</text>
 <line x1="270" y1="170" x2="415.0" y2="170" stroke="#B45F3C" stroke-width="2.4"/>
 <circle cx="415.0" cy="170" r="6.5" fill="white" stroke="#B45F3C" stroke-width="2.4"/>
@@ -45,8 +45,8 @@
 <circle cx="557.3" cy="246" r="6.5" fill="white" stroke="#B45F3C" stroke-width="2.4"/>
 <text class="small" x="569.3" y="250">9,578</text>
 <text class="text" x="42" y="288">LendingClub NN</text>
-<line x1="270" y1="284" x2="835.3" y2="284" stroke="#6B5CA5" stroke-width="2.4"/>
-<circle cx="835.3" cy="284" r="6.5" fill="white" stroke="#6B5CA5" stroke-width="2.4"/>
-<text class="small" x="847.3" y="288">792,060</text>
+<line x1="270" y1="284" x2="791.7" y2="284" stroke="#6B5CA5" stroke-width="2.4"/>
+<circle cx="791.7" cy="284" r="6.5" fill="white" stroke="#6B5CA5" stroke-width="2.4"/>
+<text class="small" x="803.7" y="288">396,030</text>
 <text class="axis" x="560" y="392" text-anchor="middle">Rows in primary local dataset, log10 scale</text>
 </svg>

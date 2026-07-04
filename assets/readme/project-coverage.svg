@@ -11,8 +11,8 @@
 .grid{stroke:#ded9cc;stroke-width:1;shape-rendering:crispEdges}
 .baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
 </style>
-<text class="title" x="42" y="42">Project Coverage</text>
-<text class="subtitle" x="42" y="64">A Cleveland dot plot of executable notebook cells; dots are easier to compare than heavy bars.</text>
+<text class="title" x="42" y="42">Notebook Depth</text>
+<text class="subtitle" x="42" y="64">Executable code cells by project. Larger notebooks tend to include more EDA, feature engineering, and evaluation.</text>
 <line class="grid" x1="270.0" y1="82" x2="270.0" y2="356"/>
 <text class="axis" x="270.0" y="382" text-anchor="middle">0</text>
 <line class="grid" x1="415.0" y1="82" x2="415.0" y2="356"/>
