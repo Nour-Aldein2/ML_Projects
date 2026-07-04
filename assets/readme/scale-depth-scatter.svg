@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img">
+<style>
+.title{font:700 26px Arial,Helvetica,sans-serif;fill:#20262e}
+.subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#66717d}
+.label{font:700 12px Arial,Helvetica,sans-serif;fill:#20262e}
+.text{font:400 12px Arial,Helvetica,sans-serif;fill:#20262e}
+.small{font:400 11px Arial,Helvetica,sans-serif;fill:#66717d}
+.tiny{font:400 10px Arial,Helvetica,sans-serif;fill:#66717d}
+.num{font:700 32px Arial,Helvetica,sans-serif;fill:#20262e}
+.axis{font:400 10px Arial,Helvetica,sans-serif;fill:#66717d}
+.grid{stroke:#ded9cc;stroke-width:1;shape-rendering:crispEdges}
+.baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
+.sketch{fill:none;stroke:#20262e;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.soft{fill:#f7f3ea;stroke:#ded9cc;stroke-width:1.2}
+</style>
+<text class="title" x="42" y="42">Scale vs. Notebook Depth</text>
+<text class="subtitle" x="42" y="64">Projects positioned by dataset size and notebook code cells. This highlights both breadth and heavy-duty projects.</text>
+<line class="grid" x1="270.0" y1="330" x2="270.0" y2="92"/>
+<text class="axis" x="270.0" y="356" text-anchor="middle">10^2</text>
+<line class="grid" x1="415.0" y1="330" x2="415.0" y2="92"/>
+<text class="axis" x="415.0" y="356" text-anchor="middle">10^3</text>
+<line class="grid" x1="560.0" y1="330" x2="560.0" y2="92"/>
+<text class="axis" x="560.0" y="356" text-anchor="middle">10^4</text>
+<line class="grid" x1="705.0" y1="330" x2="705.0" y2="92"/>
+<text class="axis" x="705.0" y="356" text-anchor="middle">10^5</text>
+<line class="grid" x1="850.0" y1="330" x2="850.0" y2="92"/>
+<text class="axis" x="850.0" y="356" text-anchor="middle">10^6</text>
+<line class="grid" x1="270" y1="330.0" x2="850" y2="330.0"/>
+<text class="axis" x="258" y="334.0" text-anchor="end">0</text>
+<line class="grid" x1="270" y1="270.5" x2="850" y2="270.5"/>
+<text class="axis" x="258" y="274.5" text-anchor="end">35</text>
+<line class="grid" x1="270" y1="211.0" x2="850" y2="211.0"/>
+<text class="axis" x="258" y="215.0" text-anchor="end">70</text>
+<line class="grid" x1="270" y1="151.5" x2="850" y2="151.5"/>
+<text class="axis" x="258" y="155.5" text-anchor="end">105</text>
+<line class="grid" x1="270" y1="92.0" x2="850" y2="92.0"/>
+<text class="axis" x="258" y="96.0" text-anchor="end">140</text>
+<line class="baseline" x1="270" y1="330" x2="850" y2="330"/>
+<line class="baseline" x1="270" y1="330" x2="270" y2="92"/>
+<circle cx="371.4" cy="290.9" r="5.0" fill="#2E6F8E" opacity="0.88"/>
+<text class="tiny" x="381.4" y="306.9">Linear</text>
+<circle cx="415.0" cy="304.5" r="5.0" fill="#B45F3C" opacity="0.88"/>
+<text class="tiny" x="425.0" y="320.5">Logistic</text>
+<circle cx="415.0" cy="296.0" r="5.0" fill="#B45F3C" opacity="0.88"/>
+<text class="tiny" x="425.0" y="312.0">KNN</text>
+<circle cx="295.5" cy="284.1" r="5.0" fill="#B45F3C" opacity="0.88"/>
+<text class="tiny" x="305.5" y="300.1">SVM</text>
+<circle cx="557.3" cy="289.2" r="5.0" fill="#B45F3C" opacity="0.88"/>
+<text class="tiny" x="567.3" y="305.2">Trees/RF</text>
+<circle cx="295.5" cy="301.1" r="6.8" fill="#3F7D5A" opacity="0.88"/>
+<text class="tiny" x="305.5" y="317.1">K-Means</text>
+<circle cx="407.7" cy="126.0" r="9.6" fill="#B45F3C" opacity="0.88"/>
+<text class="tiny" x="417.7" y="118.0">Titanic</text>
+<circle cx="791.7" cy="95.4" r="11.6" fill="#6B5CA5" opacity="0.88"/>
+<text class="tiny" x="801.7" y="87.4">Lending NN</text>
+<text class="axis" x="560" y="392" text-anchor="middle">Rows in primary dataset, log10 scale</text>
+<text class="axis" x="112" y="196" transform="rotate(-90 112 196)" text-anchor="middle">Executable code cells</text>
+</svg>

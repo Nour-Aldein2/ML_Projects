@@ -4,6 +4,8 @@ A machine learning portfolio that demonstrates practical modeling skill across r
 
 This repository is not a single experiment. It is a collection of applied notebooks that show the full ML workflow: data inspection, exploratory analysis, preprocessing, feature engineering, model training, hyperparameter tuning, evaluation, and visual communication.
 
+![Applied ML lab cartoon](assets/readme/ml-lab-cartoon.svg)
+
 ![Portfolio overview](assets/readme/portfolio-overview.svg)
 
 ## What This Repository Demonstrates
@@ -15,6 +17,8 @@ This repository is not a single experiment. It is a collection of applied notebo
 - Communication through notebooks, project-specific READMEs, interactive HTML artifacts, dashboards, and clean summary figures.
 
 ![Workflow coverage](assets/readme/workflow-coverage.svg)
+
+![Capability ladder](assets/readme/capability-ladder.svg)
 
 ## Project Index
 
@@ -29,11 +33,15 @@ This repository is not a single experiment. It is a collection of applied notebo
 | [Titanic Kaggle](Titanic-kaggle/titanic_v3.0.ipynb) | Kaggle workflow | Extensive feature engineering, ensemble-style modeling, and competition-oriented evaluation. |
 | [LendingClub Neural Network](artificial_neural_network/LendingClub_project.ipynb) | Deep learning | Large tabular loan-status model with engineered features and TensorFlow/Keras training. |
 
+![Project sketchbook](assets/readme/project-sketchbook.svg)
+
 ## Portfolio Coverage
 
 ![Model map](assets/readme/model-map.svg)
 
 ![Notebook depth](assets/readme/project-coverage.svg)
+
+![Scale and depth](assets/readme/scale-depth-scatter.svg)
 
 ![Dataset scale](assets/readme/dataset-scale.svg)
 
@@ -54,6 +62,8 @@ The chart below summarizes metrics visible in notebook outputs. These are projec
 | LendingClub Neural Network | Accuracy: 0.87 on a large validation/test split |
 
 ## Project Details
+
+![Feature engineering depth](assets/readme/feature-engineering-depth.svg)
 
 ### Linear Regression
 
@@ -139,4 +149,4 @@ ML_Projects/
 
 ## Notes on the Figures
 
-The README figures were generated from the files in this repository. Their style follows examples and principles from [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) and the [Scientific Visualization book](https://github.com/rougier/scientific-visualization-book): Cleveland dot plots for amounts, proportional bars for composition, log-scale lollipop plots for scale, direct labeling, restrained color, and minimal decoration.
+The README figures were generated from the files in this repository. Their style follows examples and principles from [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) and the [Scientific Visualization book](https://github.com/rougier/scientific-visualization-book): Cleveland dot plots for amounts, proportional bars for composition, log-scale lollipop plots for scale, direct labeling, restrained color, and minimal decoration. The cartoon-style assets are hand-drawn SVG sketches designed to support the portfolio narrative without replacing the evidence-based charts.
