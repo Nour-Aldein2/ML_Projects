@@ -10,7 +10,6 @@
 .axis{font:400 10px Arial,Helvetica,sans-serif;fill:#66717d}
 .grid{stroke:#ded9cc;stroke-width:1;shape-rendering:crispEdges}
 .baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
-.sketch{fill:none;stroke:#20262e;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .soft{fill:#f7f3ea;stroke:#ded9cc;stroke-width:1.2}
 </style>
 <text class="title" x="42" y="42">Scale vs. Notebook Depth</text>
