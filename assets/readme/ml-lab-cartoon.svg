@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="385" viewBox="0 0 960 385" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="285" viewBox="0 0 960 285" role="img">
 <style>
 .title{font:700 26px Arial,Helvetica,sans-serif;fill:#20262e}
 .subtitle{font:400 13px Arial,Helvetica,sans-serif;fill:#66717d}
@@ -12,7 +12,7 @@
 .baseline{stroke:#20262e;stroke-width:1.1;shape-rendering:crispEdges}
 .arrow{fill:none;stroke:#66717d;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 </style>
-<rect class="figure-bg" x="0" y="0" width="960" height="385" fill="#ffffff" stroke="#d9dee7" stroke-width="1"/>
+<rect class="figure-bg" x="0" y="0" width="960" height="285" fill="#ffffff" stroke="#d9dee7" stroke-width="1"/>
 <text class="title" x="42" y="44">Portfolio Visual Summary</text>
 <text class="subtitle" x="42" y="66">A project portfolio organized around the machine-learning work that matters: data, features, models, evaluation, and communication.</text>
 <circle cx="96" cy="158" r="42" fill="white" stroke="#2E6F8E" stroke-width="3"/>
@@ -48,15 +48,4 @@
 <text class="label" x="824" y="226" text-anchor="middle">Communication</text>
 <text class="tiny" x="824" y="242" text-anchor="middle">notebooks READMEs</text>
 <text class="tiny" x="824" y="255" text-anchor="middle">figures dashboards artifacts</text>
-<text class="label" x="42" y="305">Representative strengths</text>
-<line x1="26" y1="332" x2="154" y2="332" stroke="#2E6F8E" stroke-width="5" stroke-linecap="round"/>
-<text class="small" x="90" y="356" text-anchor="middle">Interpretable baselines</text>
-<line x1="221" y1="332" x2="349" y2="332" stroke="#B45F3C" stroke-width="5" stroke-linecap="round"/>
-<text class="small" x="285" y="356" text-anchor="middle">Model comparison</text>
-<line x1="406" y1="332" x2="534" y2="332" stroke="#3F7D5A" stroke-width="5" stroke-linecap="round"/>
-<text class="small" x="470" y="356" text-anchor="middle">Custom algorithms</text>
-<line x1="576" y1="332" x2="704" y2="332" stroke="#C49A3A" stroke-width="5" stroke-linecap="round"/>
-<text class="small" x="640" y="356" text-anchor="middle">Feature engineering</text>
-<line x1="751" y1="332" x2="879" y2="332" stroke="#6B5CA5" stroke-width="5" stroke-linecap="round"/>
-<text class="small" x="815" y="356" text-anchor="middle">Deep learning</text>
 </svg>

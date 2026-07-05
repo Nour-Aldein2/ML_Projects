@@ -53,5 +53,5 @@
 <line x1="270" y1="300" x2="818.1" y2="300" stroke="#f1eee7" stroke-width="2"/>
 <circle cx="818.1" cy="300" r="6.5" fill="white" stroke="#2E6F8E" stroke-width="2.4"/>
 <text class="small" x="830.1" y="304">EVS 0.989</text>
-<text class="axis" x="560" y="384" text-anchor="middle">Reported score</text>
+<text class="axis" x="560" y="384" text-anchor="middle">Reported metric</text>
 </svg>
