@@ -13,8 +13,8 @@
 .arrow{fill:none;stroke:#66717d;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 </style>
 <rect class="figure-bg" x="0" y="0" width="960" height="285" fill="#ffffff" stroke="#d9dee7" stroke-width="1"/>
-<text class="title" x="42" y="44">Portfolio Visual Summary</text>
-<text class="subtitle" x="42" y="66">A project portfolio organized around the machine-learning work that matters: data, features, models, evaluation, and communication.</text>
+<text class="title" x="42" y="44">Workflow Summary</text>
+<text class="subtitle" x="42" y="66">Project workflow organized by data inspection, feature design, modeling, evaluation, and result reporting.</text>
 <circle cx="96" cy="158" r="42" fill="white" stroke="#2E6F8E" stroke-width="3"/>
 <circle cx="96" cy="158" r="9" fill="#2E6F8E"/>
 <text class="label" x="96" y="226" text-anchor="middle">Data understanding</text>

@@ -1,77 +1,57 @@
 # ML Projects
 
-A machine learning portfolio covering regression, classification, clustering, ensemble learning, Kaggle-style feature engineering, and neural networks.
+This repository contains applied machine learning notebooks covering regression, classification, clustering, ensemble learning, Kaggle-style feature engineering, and neural-network modeling.
 
-This repository is not a single experiment. It is a collection of applied notebooks that show the full ML workflow: data inspection, exploratory analysis, preprocessing, feature engineering, model training, hyperparameter tuning, evaluation, and visual communication.
+The notebooks document recurring stages of a machine learning workflow: data inspection, exploratory analysis, preprocessing, feature engineering, model training, hyperparameter tuning, evaluation, and result reporting.
 
-![Portfolio visual summary](assets/readme/ml-lab-cartoon.svg)
+![Project workflow summary](assets/readme/project-workflow-summary.svg)
 
-![Project method map](assets/readme/portfolio-overview.svg)
-
-## What This Repository Demonstrates
+## Technical Coverage
 
 - Coverage of core supervised learning families: linear models, logistic regression, KNN, SVM, decision trees, random forests, and neural networks.
-- Practical data preparation skills, including scaling, categorical encoding, missing-value handling, feature grouping, and domain-specific feature engineering.
-- Model evaluation discipline through train/test splits, classification reports, confusion matrices, regression errors, explained variance, and validation metrics.
-- Experience with both small educational datasets and larger real-world tabular data, including a LendingClub dataset with 396,030 local CSV records.
-- Communication through notebooks, project-specific READMEs, interactive HTML artifacts, dashboards, and clean summary figures.
+- Data preparation across scaling, categorical encoding, missing-value handling, feature grouping, and domain-specific feature engineering.
+- Model evaluation through train/test splits, classification reports, confusion matrices, regression errors, explained variance, and validation metrics.
+- Datasets include small educational examples and larger tabular data, including a LendingClub dataset with 396,030 local CSV records.
+- Supporting artifacts include notebooks, project-specific READMEs, interactive HTML files, dashboard code, and figures.
 
 ![Workflow coverage](assets/readme/workflow-coverage.svg)
 
 ## Project Index
 
-| Project | Focus | Main evidence |
+| Project | Focus | Main output |
 | --- | --- | --- |
-| [Linear Regression](Linear_Regression/02-Linear%20Regression%20Project.ipynb) | Regression | Ecommerce spending model with MAE, MSE, RMSE, and explained variance. |
-| [Logistic Regression](Logistic_Regression/02-Logistic%20Regression%20Project.ipynb) | Classification | Advertising click prediction with a 0.93 reported accuracy. |
-| [KNN](KNN/02-K%20Nearest%20Neighbors%20Project.ipynb) | Classification | Standardization, K selection, and improved accuracy after tuning. |
-| [SVM](SVM/02-Support%20Vector%20Machines%20Project.ipynb) | Classification | Iris classification with GridSearchCV practice and strong class-level metrics. |
+| [Linear Regression](Linear_Regression/02-Linear%20Regression%20Project.ipynb) | Regression | Ecommerce spending model with regression error analysis. |
+| [Logistic Regression](Logistic_Regression/02-Logistic%20Regression%20Project.ipynb) | Classification | Advertising click prediction with train/test evaluation. |
+| [KNN](KNN/02-K%20Nearest%20Neighbors%20Project.ipynb) | Classification | Standardization, K selection, and error-rate analysis. |
+| [SVM](SVM/02-Support%20Vector%20Machines%20Project.ipynb) | Classification | Iris classification with GridSearchCV practice and class-level metrics. |
 | [Decision Trees & Random Forest](dtree_and_rfc/02-Decision%20Trees%20and%20Random%20Forest%20Project.ipynb) | Tree models | LendingClub loan classification with categorical handling and model comparison. |
 | [K-Means](Kmeans/kmeans_nour.ipynb) | Clustering | From-scratch K-means implementation with centroid updates and visualization. |
-| [Titanic Kaggle](Titanic-kaggle/titanic_v3.0.ipynb) | Kaggle workflow | Extensive feature engineering, ensemble-style modeling, and competition-oriented evaluation. |
+| [Titanic Kaggle](Titanic-kaggle/titanic_v3.0.ipynb) | Kaggle workflow | Feature engineering, ensemble-style modeling, and competition-oriented evaluation. |
 | [LendingClub Neural Network](artificial_neural_network/LendingClub_project.ipynb) | Deep learning | Large tabular loan-status model with engineered features and TensorFlow/Keras training. |
 
-![Project sketchbook](assets/readme/project-sketchbook.svg)
-
-## Portfolio Coverage
+## Model and Data Coverage
 
 ![Model map](assets/readme/model-map.svg)
 
 ![Dataset scale](assets/readme/dataset-scale.svg)
 
-## Reported Results
-
-The chart below summarizes metrics visible in notebook outputs. These are project-specific results, not a single standardized benchmark across identical datasets.
-
-![Reported notebook results](assets/readme/reported-results.svg)
-
-| Project | Reported result from notebook/output |
-| --- | --- |
-| Linear Regression | Explained variance: 0.989; RMSE: 8.934 |
-| Logistic Regression | Accuracy: 0.93 |
-| KNN | Accuracy improved from 0.74 to 0.85 after selecting K=28 |
-| SVM | Accuracy: 0.96 on Iris classification |
-| Decision Trees & Random Forest | Random forest accuracy: 0.85 |
-| Titanic Kaggle | Validation accuracy around 0.85; project note reports Kaggle score 0.80622 |
-| LendingClub Neural Network | Accuracy: 0.87 on a large validation/test split |
-
 ## Project Details
 
 ### Linear Regression
 
-This notebook models yearly ecommerce customer spending from behavioral features such as session length, app usage, website usage, and membership length. It demonstrates a clean regression workflow: inspect the dataset, visualize feature relationships, split training and test data, fit a linear model, inspect coefficients, evaluate residuals, and report regression error metrics.
+This notebook models yearly ecommerce customer spending from behavioral features such as session length, app usage, website usage, and membership length. The workflow includes dataset inspection, feature relationship plots, train/test splitting, linear model fitting, coefficient inspection, residual analysis, and regression error metrics.
 
-Methods used: regression modeling, coefficient interpretation, residual analysis, regression metrics, and business-facing recommendation framing.
+Methods used: regression modeling, coefficient interpretation, residual analysis, regression metrics, and decision-oriented interpretation.
 
 ### Logistic Regression
 
 This project predicts whether a user clicked on an advertisement using demographic and usage features such as time on site, age, area income, and internet usage. The notebook includes exploratory analysis, train/test splitting, logistic model fitting, and classification-report evaluation.
 
-Methods used: binary classification, classification reports, confusion-matrix interpretation, and practical use of scikit-learn for interpretable baseline models.
+Methods used: binary classification, classification reports, confusion-matrix interpretation, and scikit-learn baseline modeling.
 
 ### K Nearest Neighbors
 
-The KNN notebook focuses on distance-based classification. It standardizes the feature space, trains an initial KNN model, evaluates it, then searches across K values to improve performance. The reported accuracy improves from 0.74 to 0.85 after tuning.
+The KNN notebook focuses on distance-based classification. It standardizes the feature space, trains an initial KNN model, evaluates it, then searches across K values to compare error behavior under different neighborhood sizes.
 
 Methods used: feature scaling, distance-based learning, hyperparameter search, error-rate analysis, and model iteration.
 
@@ -83,7 +63,7 @@ Methods used: margin-based classification, multiclass evaluation, grid search, a
 
 ### Decision Trees and Random Forest
 
-This notebook explores LendingClub loan data with tree-based models. It prepares categorical variables, trains a decision tree and a random forest, and compares classification reports and confusion matrices. The project also exposes a realistic modeling issue: high overall accuracy can hide weak minority-class recall.
+This notebook explores LendingClub loan data with tree-based models. It prepares categorical variables, trains a decision tree and a random forest, and compares classification reports and confusion matrices. The project also illustrates a known modeling issue: aggregate metrics can hide weak minority-class recall.
 
 Methods used: tree models, ensemble learning, categorical encoding, model comparison, and critical evaluation of imbalanced classification results.
 
@@ -95,7 +75,7 @@ Methods used: algorithm implementation, vector reasoning, clustering fundamental
 
 ### Titanic Kaggle
 
-The Titanic notebook is one of the deepest projects in the repository. It includes extensive EDA, feature engineering functions for titles, sex, age groups, embarked values, family structure, child indicators, fare grouping, and feature dropping. The project also includes correlation images and interactive HTML analysis artifacts.
+The Titanic notebook is a feature-engineering-heavy Kaggle workflow. It includes EDA, feature engineering functions for titles, sex, age groups, embarked values, family structure, child indicators, fare grouping, and feature dropping. The project also includes correlation images and interactive HTML analysis artifacts.
 
 Methods used: Kaggle-style workflow, domain-driven feature engineering, ensemble-oriented thinking, missing-data handling, validation, and competition submission framing.
 
@@ -107,11 +87,11 @@ Related artifacts:
 
 ### LendingClub Neural Network
 
-The LendingClub neural network project is the largest and most advanced notebook in the portfolio. It works with a large loan-status dataset and performs extensive feature engineering across home ownership, loan purpose, employment length, employment title, mortgage accounts, bankruptcies, loan term, grade, sub-grade, verification status, issue date, and application type.
+The LendingClub neural network project works with a large loan-status dataset and performs feature engineering across home ownership, loan purpose, employment length, employment title, mortgage accounts, bankruptcies, loan term, grade, sub-grade, verification status, issue date, and application type.
 
 The project then trains a TensorFlow/Keras neural network to predict whether a borrower is likely to fully repay a loan. It also includes a saved Keras model and a small dashboard script for loan-status exploration.
 
-Methods used: large tabular data handling, deep learning, high-volume feature engineering, model persistence, dashboard-oriented communication, and evaluation at scale.
+Methods used: large tabular data handling, deep learning, feature engineering, model persistence, dashboard code, and held-out evaluation.
 
 Related artifacts:
 
